@@ -1,0 +1,1 @@
+-- STEP 1: DW - Create start schema tables
