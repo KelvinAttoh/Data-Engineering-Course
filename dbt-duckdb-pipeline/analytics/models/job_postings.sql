@@ -10,4 +10,4 @@ SELECT
 	search_term
 FROM '../data/raw/raw_job_postings_*.parquet'
 WHERE error IS NULL
-;
+
