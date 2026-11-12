@@ -11,8 +11,8 @@ clean-targets:
 
 
 models:
- analytics:
- +materialized: table
+  analytics:
+    +materialized: table
 
 flags:
   require_generic_test_arguments_property: true
