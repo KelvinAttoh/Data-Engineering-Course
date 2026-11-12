@@ -10,6 +10,9 @@ clean-targets:
   - "dbt_packages"
 
 
-# models:
-#  analytics:
+models:
+ analytics:
+ +materialized: table
 
+flags:
+  require_generic_test_arguments_property: true
